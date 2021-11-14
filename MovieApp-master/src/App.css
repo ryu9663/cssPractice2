@@ -1,0 +1,49 @@
+
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  
+}
+
+body { 
+  background-color :#141414;
+  color : #ffffff;
+
+
+}
+
+.movie-app > .row {
+  overflow-x : auto;
+  flex-wrap : nowrap;
+  width: 1000px;
+}
+
+.image-container{
+  position : relative;
+  transition : transform 0.2s;
+}
+
+.image-container:hover{
+  cursor : pointer;
+  transform : scale(0.8);
+}
+
+.image-container:hover {
+ opacity : 1;
+}
+.overlay:hover{
+  opacity : 1;
+ }
+.overlay {
+  position : rgba(0,0,0,0.8);
+  transition : 0.5s ease;
+  opacity: 0;
+  bottom:0;
+  font-size : 20px;
+  padding : 20px;
+  text-align: center;
+
+}
+button {
+  cursor: pointer;
+}
